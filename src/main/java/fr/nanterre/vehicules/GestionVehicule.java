@@ -14,6 +14,8 @@ public class GestionVehicule {
 		2020)));
 		System.out.println("Modification EF-456-GH : "
 		 + ModifierVehicule.modifier(parc, "EF-456-GH", "Peugeot", "308", 2022));
+		System.out.println("Suppression IJ-789-KL : "
+ 		 + SupprimerVehicule.supprimer(parc, "IJ-789-KL"));
 		afficher(parc);
 	}
 	static void afficher(List<Vehicule> parc) {
