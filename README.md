@@ -12,3 +12,4 @@ git config core.hooksPath .githooks
 Cette commande permet d'utiliser les hooks `pre-commit` et `commit-msg` du projet.
 
 Recherche par immatriculation (en cours)
+Voir aussi : git lg
