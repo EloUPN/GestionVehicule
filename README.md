@@ -13,3 +13,5 @@ Cette commande permet d'utiliser les hooks `pre-commit` et `commit-msg` du proje
 
 Recherche par immatriculation (en cours)
 Voir aussi : git lg
+## Compiler
+javac -d out $(find src/main -name "*.java")
