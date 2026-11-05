@@ -15,3 +15,4 @@ Recherche par immatriculation (en cours)
 Voir aussi : git lg
 ## Compiler
 javac -d out $(find src/main -name "*.java")
+Validation automatique par Jenkins
