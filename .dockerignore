@@ -1,0 +1,6 @@
+# .dockerignore — dans ~/GestionVehicule
+.git
+out/
+.idea/
+.vscode/
+*.env
