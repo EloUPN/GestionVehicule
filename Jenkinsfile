@@ -18,6 +18,16 @@ pipeline {
  	sh './test.sh'
  		}
  	}
+	stage('Construction image Docker') {
+ 		steps {
+ 			sh 'docker build -t gestionvehicule:ci-${BUILD_NUMBER} .'
+ 		}
+ 	}
+ 	stage('Verification conteneur') {
+ 		steps {
+ 			sh 'docker run --rm gestionvehicule:ci-${BUILD_NUMBER}'
+ 		}
+ 	}
  }
  post {
  	success { echo 'VALIDATION REUSSIE : compilation et tests OK' }
